@@ -1,0 +1,15 @@
+1.run npm run build or yarn build, depending on your package manager
+2.run firebase login and fill necessary requirements (skip if already logged in)
+3.run firebase init
+4.select the Hosting option (navigate using arrow keys, select using spacebar. Enter after selection)
+5.select an existing firebase app or create a new one
+6.type build for the folder choice
+7.type/select yes for single page app option
+8.type/select no to avoid overwriting of files by firebase
+9.run firebase serve --only hosting for testing
+10.run firebase deploy
+
+
+***make sure to do this outside of src folder, in the same directory as 
+the public and build directory, so your firebase.json and other firebase generated build files
+should be outside of src 
